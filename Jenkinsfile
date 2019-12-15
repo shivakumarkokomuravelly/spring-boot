@@ -15,7 +15,7 @@ node
 
  stage('test results')
   { 
-    junit 'surefire-reports/*.xml'
+    junit 'target/surefire-reports/*.xml'
   } 
 }
     
