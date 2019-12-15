@@ -12,4 +12,11 @@ node
   {
     archive 'target/*.jar'
   }
-}  
+
+ stage('test results')
+  { 
+    junit 'surefire-reports/*.xml'
+  } 
+    
+    
+
